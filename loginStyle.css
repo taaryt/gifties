@@ -1,0 +1,143 @@
+nav{
+    
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    border-top:  0px groove rgb(248, 138, 156);
+    border-bottom: 2px inset rgb(249, 120, 141);
+    border-width: 3px;
+    padding: 20px;
+    background-color: pink;
+    margin-left: 0;
+    font-family: "Georgia", serif;
+    box-shadow: 0 20px 40px pink;
+}
+
+
+nav>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-style:normal;
+}
+nav>a:hover{
+    color: rgba(228, 100, 143, 0.711);
+    transition: color 0.2s;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.bodyy{
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    min-height: 100vh;
+}
+
+.cadre{
+    background-color:rgb(249, 178, 190);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 50px;
+    margin: 20px 0 15px;
+}
+.cadre  h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 2px rgb(254, 108, 132);
+    width: 500px;
+
+
+}
+
+.input{
+    text-align: center;
+    margin-top: 3px;
+    height: 100px;
+   
+      
+}
+
+.input input{
+    border: 2px solid black;
+    border-radius:30px ;
+    margin: 7px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+
+.remember-me , .mot-de-passe-oublié{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;    
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    
+}
+.mot-de-passe-oublié:hover{
+    transition: color 0.2s;
+    color: rgba(228, 100, 143, 0.711);
+
+}
+
+button{
+    width: 100%;
+    border: 2px groove black;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+button:hover{
+    transition: 0.2s ;
+    background-color:  rgba(228, 100, 143, 0.711);
+    color:  rgb(255, 255, 255);
+}
+
+.creation-compte{
+
+    margin-top: 35px;
+}
+.creation-compte >a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.creation-compte a:hover{
+
+    transition: color 0.2s;
+    color: rgba(228, 100, 143, 0.711);
+}
+
+
+footer{
+    
+    box-shadow:0px -10px 15px pink;
+    bottom: 0;
+    background-color: pink;
+    display: flex;
+    flex-shrink: 0;
+    border-top: 3px solid rgb(253, 145, 163) ;
+    width: 100%;
+    justify-content: space-around;
+}

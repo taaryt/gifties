@@ -1,0 +1,43 @@
+body{
+    margin-top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgb(239, 233, 233);
+}
+
+nav{
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    border-top:  0px groove rgb(248, 138, 156);
+    border-bottom: 2px inset rgb(249, 120, 141);
+    border-width: 3px;
+    padding: 20px;
+    background-color: pink;
+    margin-left: 0;
+    font-family: "Georgia", serif;
+    box-shadow: 0 20px 40px pink;
+}
+
+nav>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-style:normal;
+}
+nav>a:hover{
+    color: rgba(228, 100, 143, 0.711);
+    transition: color 0.2s;
+}
+
+footer{
+    
+    box-shadow:0px -10px 15px pink;
+    bottom: 0;
+    background-color: pink;
+    display: flex;
+    flex-shrink: 0;
+    border-top: 3px solid rgb(253, 145, 163) ;
+    width: 100%;
+    justify-content: space-around;
+}
